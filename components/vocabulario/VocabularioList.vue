@@ -1,5 +1,5 @@
 <template>
-  <div>HeaderApp</div>
+  <p>vocabulario</p>
 </template>
 
 <script>

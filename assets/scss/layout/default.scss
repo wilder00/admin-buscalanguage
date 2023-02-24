@@ -1,0 +1,11 @@
+.defaul-layout {
+  background: #303247;
+  width: 100%;
+  height: 100vh;
+
+  .content {
+    display: flex;
+    position: static;
+    width: 100vh;
+  }
+}

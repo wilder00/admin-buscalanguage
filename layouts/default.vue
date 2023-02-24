@@ -1,15 +1,17 @@
 <template>
-  <div>
+  <div class="defaul-layout">
     <HeaderApp />
-    <Nuxt />
-    <Sidenav />
+    <div class="content">
+      <Sidenav />
+      <Nuxt />
+    </div>
   </div>
   
 </template>
 
 <script>
-import HeaderApp from '~/components/comun/HeaderApp.vue';
-import Sidenav from '~/components/comun/Sidenav.vue';
+import HeaderApp from '~/components/common/HeaderApp.vue';
+import Sidenav from '~/components/common/Sidenav.vue';
 
 
 export default {

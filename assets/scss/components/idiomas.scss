@@ -1,0 +1,62 @@
+.idiomas-page {
+  width: 171px;
+  height: 500px;
+  background: #181E36;
+  border: 1px solid #9AA3AD;
+  border-radius: 5px;
+  padding: 11px 0px;
+
+  .header {
+    padding: 15px 11px 15px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    h1 {
+      font-size: 12px;
+      font-weight: 700;
+    }
+    button {
+      
+      top: 60px;
+      font-size: 10px;
+      width: 69px;
+      height: 15px;
+    }
+  }
+  .idiomas__box {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    .idioma {
+      width: 169px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+
+      span {
+        padding-left: 11px;
+        color: #9AA3AD;
+        font-size: 20px;
+      }
+      p {
+        font-family: 'Work Sans';
+        font-size: 15px;
+      }
+      &:hover {
+        background: #303247;
+      }
+  
+      &:focus {
+        background-color: #303247;
+      }
+    }
+    
+  }
+}

@@ -3,7 +3,7 @@
     <div class="oraciones-content">      
       <div class="header">
         <H1>Oraciones</H1>
-        <nuxt-link to="/login"><button>Agregar</button></nuxt-link>
+        <nuxt-link to="/agregarOrac"><button>Agregar</button></nuxt-link>
       </div>
       <div class="oraciones">
         <OracionesCard v-for="oracion in oraciones" :key="oracion"/>

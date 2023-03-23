@@ -2,7 +2,7 @@
   <div class="idiomas-page">
     <div class="header">
       <h1>IDIOMAS:</h1>
-      <nuxt-link to="/login"><button>Agregar</button></nuxt-link>
+      <nuxt-link to="/agregarIdiom"><button>Agregar</button></nuxt-link>
     </div>
     <div class="idiomas__box">
       <div class="idioma">

@@ -2,7 +2,7 @@
   <div class="oracionesCard">
     <div class="oracion__box">
       <div class="oracion">
-        <h3>Japopnés</h3>
+        <h3>Japoponés</h3>
         <p>間タヌコセ捕権ロモチ可基能で杯中ルせくち民払ヨホコ真者引びスゅた査無みぱちぽ著少めつじ</p>
       </div>
       <div class="oracion">
